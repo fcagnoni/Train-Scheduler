@@ -1,0 +1,59 @@
+h1 {
+  color:whitesmoke;
+}
+
+body{
+font-family: sans-serif;
+text-align: center;
+background: #aaa;
+}
+
+.container{
+  width: 800px;
+  margin: 0 auto;
+}
+
+table{
+width: 100%;
+background: whitesmoke;
+}
+
+td{
+  padding: 8px;
+  vertical-align: middle;
+  border-bottom: solid 1px #dddddd;
+}
+
+thead td{
+  font-weight: bold;
+}
+
+form {
+  width: 33%;
+  display: inline-block;
+  background: whitesmoke;
+  font-size: 18px;
+  margin-top: 20px;
+  text-align: left;
+  border: solid 1px #dddddd;
+  padding: 20px;
+  border-radius: 3px;
+}
+
+form label{
+  display: block;
+}
+
+form input{
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 10px 20px;
+  text-align: center;
+  background: white;
+  border: solid 1px #dddddd;
+  font-size: 22px;
+}

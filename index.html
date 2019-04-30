@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+<meta charset="UTF-8">
+<title>Train Scheduler</title>
+ 
+
+<head>
+
+  <script src="https://momentjs.com/downloads/moment.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.10.1/firebase.js"></script>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+
+<body>
+    <div class=container>
+<h1>
+I Choo Choo Choose You!
+</h1>
+
+  <table id="trainTable">
+    <thead>
+      <tr>
+        <td>
+          Train Name
+        </td>
+        <td>
+          Destination
+        </td>
+        <td>
+          Frequency (min)
+        </td>
+        <td>
+          Next Arrival
+        </td>
+        <td>
+          Minutes Away
+        </td>
+      </tr>
+    </thead>
+    <tbody>
+
+
+
+    </tbody>
+
+  </table>
+  <form id="train-form">
+    <div>
+      <label for="train-name">Name of Train:</label>
+      <input required id="train-name" type="string" name="Train Name"></input>
+    </div>
+
+    <div>
+      <label for="destination">Train Destination:</label>
+      <input required id="destination" type="string" name="Destination"></input>
+    </div>
+
+    <div>
+      <label for="first-train">First Departure of the Day:</label>
+      <input required placeholder="HH:mm" id="first-train" type="string" name="First Train"></input>
+    </div>
+
+    <div>
+      <label for="frequency">Arrival Frequency (minutes):</label>
+      <input required id="frequency" type="number" name="Frequency"></input>
+    </div>
+
+    <div>
+      <button type="submit">Submit</button>
+    </div>
+
+  </form>
+
+</div>
+  <script src="app.js"></script>
+
+</body>
+
+</html>
